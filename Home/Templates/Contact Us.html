@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+
+   
+    <title>Contact Us</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'CSS/offcanvas.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+<!--canvas navbar-->
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark " aria-label="Main navigation" style="background-color: #051622;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: white;">AssignEase</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav me-auto mb-2 mx-auto mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Contact Us">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About">About</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="assignment_help.html">Smart Help</a>
+                    </li>
+
+            </ul>
+
+
+            <!--     button    -->
+            <!-- <div class="d-flex">
+                <div class="btn-group me-2">
+                    <button class="btn dropdown-toggle" style="background-color: #051622; color: white;"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Login
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop1">Student</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop2">Teacher</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group me-2">
+                    <button class="btn dropdown-toggle" style="background-color: #051622; color: white;"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Sign Up
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Student</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop0">Teacher</a></li>
+
+                    </ul>
+                </div>
+
+
+            </div> -->
+        </div>
+
+    </div>
+
+</nav>
+
+<!--canvas end-->
+<main class="container my-5">
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-4 col-12 ">
+            <div class="border border-2 p-2 bg-light rounded">
+                <h5>Address</h5>
+                <hr>
+                <p>Plot No. 2, APJ Abdul Kalam Rd, Knowledge Park III, Greater Noida, Uttar Pradesh 201306</p>
+            </div>
+
+            <div class="border border-2 mt-4 p-2 bg-light rounded">
+                <h5>Business Hours</h5>
+                <hr>
+                <p>Monday-Friday 9AM to 5PM<br>
+                    Saturday-Sunday Closed
+                </p>
+            </div>
+
+            <div class="border border-2 mt-4 p-2 bg-light rounded">
+                <h5>Telephone</h5>
+                <hr>
+                <p>+91 8219805328<br>
+                    +91 7018227148
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-7 col-12 offset-md-1">
+            <div class="bg-light rounded" style="margin-left:10px;">
+                <h5 class="mb-4">DROP US A LINE SO THAT WE CAN HEAR FROM YOU</h5>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="email" required class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" required class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Phone</label>
+                        <input type="text" required class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea type="text" required class="form-control">
+                        </textarea>
+                    </div>
+
+                    <button class="btn  text-dark mt-3" style="background-color: #2ebdb4; color: #062f4e;">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2329861242!2d77.48616837549494!3d28.47252932575244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceb193588358f%3A0x8274cec5a1321578!2sGL%20Bajaj%20Institute%20of%20Technology%20%26%20Management!5e0!3m2!1sen!2sin!4v1732042507458!5m2!1sen!2sin"
+            width="1300" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<hr class="featurette-divider">
+<footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2024 E2G2</p>
+</footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+<script src="{% static 'JavaScript/offcanvas.js' %}"></script>
+</body>
+</html>

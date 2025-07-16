@@ -150,7 +150,7 @@ Due Date: {Due_Date}
 Please check your portal for more details.
 
 Regards,
-{Teacher.Name}
+{ems}
             '''
 
             try:

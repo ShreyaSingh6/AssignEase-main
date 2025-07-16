@@ -22,9 +22,9 @@ from django.contrib.staticfiles.urls import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 # Django admin customize
-admin.site.site_header = "Online Assignment Submission Portal"
+admin.site.site_header = "AssignEase"
 admin.site.site_title = "Welcome Admin "
-admin.site.index_title = "Welcome to Online Assignment Submission Portal"
+admin.site.index_title = "Welcome to AssignEase"
 
 urlpatterns = [
     path('admin/', admin.site.urls),

@@ -1,1 +1,1 @@
-web: gunicorn Assignment_Submission.wsgi
+web: gunicorn Assignment_Submission.wsgi:application

@@ -12,18 +12,23 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+from decouple import config
+import dj_database_url
+from dotenv import load_dotenv
+load_dotenv()
 
-try:
-    import pymysql
-    pymysql.install_as_MySQLdb()
-except:
-    pass
+
+# try:
+#     import pymysql
+#     pymysql.install_as_MySQLdb()
+# except:
+#     pass
 
 import os
 import dj_database_url
 
 DEBUG = False
-ALLOWED_HOSTS = ['assignease.onrender.com']
+ALLOWED_HOSTS = ['*']
 SECRET_KEY = os.environ.get("SECRET_KEY")  # Remove the hardcoded one
 
 
@@ -34,10 +39,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-jeqqliwmbdcbnok%&(k75(vy_ocz$2!e5o69ilh2ak*s+qbb2o'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
 
 # ALLOWED_HOSTS = ["*"]
 
@@ -63,6 +64,7 @@ INSTALLED_APPS += ['cloudinary', 'cloudinary_storage']
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
+
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': os.environ.get('CLOUDINARY_CLOUD_NAME'),
     'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
@@ -74,8 +76,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'youmailid'
-EMAIL_HOST_PASSWORD = 'app password of your mail'
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -124,8 +126,9 @@ WSGI_APPLICATION = 'Assignment_Submission.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.config(default=os.environ.get("DATABASE_URL"))
+    'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
 }
+
 
 
 # Password validation

@@ -8,6 +8,12 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 import os
+import sys
+import logging
+
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+logger.debug("Starting WSGI application")
 
 from django.core.wsgi import get_wsgi_application
 

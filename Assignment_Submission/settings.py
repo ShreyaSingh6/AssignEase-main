@@ -49,7 +49,7 @@ except:
 import os
 import dj_database_url
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['web-production-c2ec7.up.railway.app', '127.0.0.1', 'localhost']
 
 SECRET_KEY = os.environ.get("SECRET_KEY")  # Remove the hardcoded one

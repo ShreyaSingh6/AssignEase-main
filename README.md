@@ -1,6 +1,10 @@
 # 📚 AssignEase – Assignment Management Made Easy
 
 AssignEase is a powerful web-based assignment management system built with **Django**. It simplifies how assignments are uploaded, distributed, and submitted between teachers and students. AssignEase provides section-wise assignment distribution, detailed reports, and a clean Bootstrap interface.
+<img width="2511" height="1403" alt="image" src="https://github.com/user-attachments/assets/bb3caf31-ca5b-4444-856c-e98239396f9b" />
+<img width="2519" height="1391" alt="image" src="https://github.com/user-attachments/assets/b51babfe-afef-4a5b-a2c7-437bba86258f" />
+<img width="2533" height="1269" alt="image" src="https://github.com/user-attachments/assets/9c898ac8-7baf-432a-a33e-23c8e4af99de" />
+
 
 ---
 
@@ -12,10 +16,18 @@ AssignEase is a powerful web-based assignment management system built with **Dja
   - Automated grading according to marks
   - Generate reports by students, assignments, and subjects.
 
+<img width="2544" height="1401" alt="Screenshot 2024-12-13 030305" src="https://github.com/user-attachments/assets/d96deea8-afb3-4a7c-ad1d-6e497ea815f3" />
+<img width="2548" height="1380" alt="Screenshot 2024-12-13 030549" src="https://github.com/user-attachments/assets/4c62c884-ad11-4af9-a38c-c624e61b7165" />
+<img width="2552" height="1392" alt="Screenshot 2024-12-13 030700" src="https://github.com/user-attachments/assets/3fd8a440-5985-4eed-abe3-332f171038f1" />
+<img width="2548" height="1163" alt="Screenshot 2025-07-20 001817" src="https://github.com/user-attachments/assets/a4f15453-7c48-44bb-b27c-54a4989172f9" />
+
 - 🎓 **Student Panel**
   - View only relevant assignments.
   - Submit assignments with file uploads.
   - Track submission status and results.
+<img width="2544" height="1386" alt="Screenshot 2025-07-20 003129" src="https://github.com/user-attachments/assets/8f173c44-602e-4afe-84d3-411db1dc5b7e" />
+<img width="2526" height="865" alt="Screenshot 2025-07-20 002011" src="https://github.com/user-attachments/assets/a8df194b-a701-494c-984d-eda47413acea" />
+<img width="2253" height="1069" alt="Screenshot 2025-07-20 003037" src="https://github.com/user-attachments/assets/07b34ea5-2073-4277-9a3a-40a117af205f" />
 
 - 🗂 **Admin Panel**
   - Add/edit/delete subjects and sections.
@@ -26,6 +38,8 @@ AssignEase is a powerful web-based assignment management system built with **Dja
   - AI chatbot
   - Google Gemini API
   - Resolve the queries of Students and Teachers
+<img width="2536" height="865" alt="image" src="https://github.com/user-attachments/assets/ab08142e-155b-46be-86ff-3b2f8bc3cd88" />
+
 
 - 🎨 Responsive UI with **Bootstrap 5**
 

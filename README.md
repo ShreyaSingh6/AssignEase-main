@@ -16,7 +16,6 @@ AssignEase is a powerful web-based assignment management system built with **Dja
 - 🧑‍🏫 **Teacher Panel**
   - Upload assignments with file attachments.
   - View and download student submissions.
-  - Automated grading according to marks
   - Generate reports by students, assignments, and subjects.
 <br><br>
 <img width="2544" height="1401" alt="Screenshot 2024-12-13 030305" src="https://github.com/user-attachments/assets/d96deea8-afb3-4a7c-ad1d-6e497ea815f3" />

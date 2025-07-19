@@ -106,8 +106,6 @@ Then go to http://127.0.0.1:8000/ in your browser.
 
  Notifications (email/reminders)
 
- Gamification (leaderboards, badges)
-
  Chatbot Support for FAQ
 
 ## 🤝 Contributing
